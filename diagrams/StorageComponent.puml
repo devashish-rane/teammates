@@ -1,5 +1,5 @@
 @startuml
-!include diagrams/style.puml
+!include style.puml
 skinparam componentBackgroundColor MODEL_COLOR_T1
 skinparam componentFontColor #FFFFFF
 skinparam packageBackgroundColor #FFFFFF
@@ -17,7 +17,6 @@ component Storage {
         rectangle CourseStudent
         rectangle DeadlineExtension
         rectangle Instructor
-        rectangle StudentProfile
         rectangle FeedbackResponse
         rectangle FeedbackQuestion
         rectangle FeedbackSession

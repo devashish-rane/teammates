@@ -3,7 +3,6 @@
   "pages": [
     {
       "src": "CONTRIBUTING.md",
-      "title": "",
       "headings": {
         "contributing-to-teammates": "Contributing to TEAMMATES",
         "getting-started": "Getting started",
@@ -21,9 +20,32 @@
     },
     {
       "src": "SUPPORT.md",
-      "title": "",
       "headings": {
         "teammates-support": "TEAMMATES Support"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "axe-testing.md",
+      "title": "Accessibility Testing",
+      "headings": {
+        "accessibility-testing": "Accessibility Testing",
+        "what-is-accessibility-testing": "What is Accessibility Testing?",
+        "running-accessibility-tests": "Running Accessibility Tests",
+        "running-the-tests": "Running the tests",
+        "creating-accessibility-tests": "Creating Accessibility Tests"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "best-practices/accessibility.md",
+      "title": "Best Practices: Accessibility",
+      "headings": {
+        "accessibility-best-practices": "Accessibility Best Practices",
+        "content": "Content",
+        "images-icons": "Images/Icons",
+        "keyboard": "Keyboard",
+        "controls-inputs": "Controls/Inputs"
       },
       "headingKeywords": {}
     },
@@ -54,6 +76,16 @@
       "headingKeywords": {}
     },
     {
+      "src": "best-practices/mobile-friendliness.md",
+      "title": "Best Practices: Mobile-Friendliness",
+      "headings": {
+        "mobile-friendliness-best-practices": "Mobile-Friendliness Best Practices",
+        "content": "Content",
+        "interactive-elements-e-g-buttons-links-tooltips": "Interactive elements (e.g. buttons, links, tooltips)"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "best-practices/testing.md",
       "title": "Best Practices: Testing",
       "headings": {
@@ -70,7 +102,7 @@
         "be-forgiving-in-processing-input": "Be forgiving in processing input",
         "be-descriptive": "Be descriptive",
         "minimize-work-to-be-done-by-the-user": "Minimize work (to be done by the user)",
-        "take-user-point-of-view": "Take user point of view",
+        "take-the-user-s-point-of-view": "Take the user's point of view",
         "be-consistent": "Be consistent"
       },
       "headingKeywords": {}
@@ -139,6 +171,7 @@
         "building-front-end-files": "Building front-end files",
         "logging-in-to-a-teammates-instance": "Logging in to a TEAMMATES instance",
         "logging-in-without-ui": "Logging in without UI",
+        "masquerading-as-another-user": "Masquerading as another user",
         "running-the-datastore-emulator": "Running the Datastore emulator",
         "stopping-the-emulator": "Stopping the emulator",
         "testing": "Testing",
@@ -237,11 +270,11 @@
       "title": "Performance Testing",
       "headings": {
         "performance-testing": "Performance Testing",
-        "creating-performance-tests": "Creating Performance Tests",
         "running-performance-tests": "Running Performance Tests",
         "using-gradle": "Using Gradle",
         "using-the-command-line": "Using the Command Line",
-        "using-jmeter-gui": "Using JMeter GUI"
+        "using-jmeter-gui": "Using JMeter GUI",
+        "creating-performance-tests": "Creating Performance Tests"
       },
       "headingKeywords": {}
     },
@@ -260,6 +293,19 @@
         "step-6-prepare-for-merging": "Step 6: Prepare for merging",
         "reviewing-a-pr": "Reviewing a PR",
         "merging-a-pr": "Merging a PR"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "schema-migration.md",
+      "title": "Schema Migration",
+      "headings": {
+        "sql-schema-migration": "SQL Schema Migration",
+        "liquibase-in-teammates": "Liquibase in Teammates",
+        "liquibase-connection": "Liquibase connection",
+        "change-logs-change-sets-and-change-types": "Change logs, change sets and change types",
+        "gradle-activities-for-liquibase": "Gradle Activities for Liquibase",
+        "generating-updating-liquibase-change-logs": "Generating/ Updating liquibase change logs"
       },
       "headingKeywords": {}
     },
@@ -295,8 +341,7 @@
         "how-do-we-use-snapshot-testing": "How do we use Snapshot Testing?",
         "when-do-we-use-snapshot-testing": "When do we use Snapshot Testing?",
         "when-do-we-not-use-snapshot-testing": "When do we NOT use Snapshot Testing?",
-        "best-practices": "Best Practices",
-        "final-notes": "Final Notes"
+        "best-practices": "Best Practices"
       },
       "headingKeywords": {}
     },
@@ -317,8 +362,25 @@
       "title": "Troubleshooting Guide",
       "headings": {
         "developer-troubleshooting-guide": "Developer Troubleshooting Guide",
+        "common-setup-errors-and-solutions": "Common setup errors and solutions",
         "common-test-errors-and-solutions": "Common test errors and solutions",
         "submitting-help-request": "Submitting help request"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "unit-testing.md",
+      "title": "Unit Testing",
+      "headings": {
+        "unit-testing": "Unit Testing",
+        "what-is-unit-testing": "What is Unit Testing?",
+        "running-unit-tests": "Running Unit Tests",
+        "frontend-tests": "Frontend tests",
+        "backend-tests": "Backend tests",
+        "creating-unit-tests": "Creating Unit Tests",
+        "general-guidelines": "General guidelines",
+        "frontend-tests-2": "Frontend tests",
+        "backend-tests-2": "Backend tests"
       },
       "headingKeywords": {}
     }
